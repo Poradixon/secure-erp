@@ -1,0 +1,25 @@
+<p>hr works!</p>
+<ng-container class="main-container">
+  <div class="header">
+    HR MODULE
+    <div class="buttons">
+      <button>Create</button>
+      <button>Read</button>
+      <button>Update</button>
+      <button>Delete</button>
+    </div>
+  </div>
+  <div class="main-content">
+  <div class="hr-buttons">
+    <button>Oldest</button>
+    <button>Youngest</button>
+    <button>Average age</button>
+    <button>Next bday</button>
+    <button>Count with clearance</button>
+    <button>Count per department</button>
+  </div>
+    <div class="employees" *ngFor="let employee of employees;">
+      EMPLOYEES
+    </div>
+  </div>
+</ng-container>
